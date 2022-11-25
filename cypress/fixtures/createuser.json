@@ -1,0 +1,9 @@
+
+    {
+        "name": "sara",
+        "id" : "1",
+        "gender":"female",
+        "email": "hello@cypress.io",
+        "status": "active"
+    }
+  

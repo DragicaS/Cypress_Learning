@@ -8,9 +8,7 @@ describe('post user request', () => {
 
     it('create user request', () => {
 
-
         var letters = "akjswdajksdawkdlakjndbvdvsawdezadaowpowqlc"
-
 
         for (var i = 0; i < 10; i++) {
             randomText += letters.charAt(Math.floor(Math.random() * letters.length));
@@ -19,13 +17,7 @@ describe('post user request', () => {
 
         }
 
-
-
-
-
         cy.request({
-
-
 
             method: 'POST',
             url: 'https://gorest.co.in/public/v1/users',
